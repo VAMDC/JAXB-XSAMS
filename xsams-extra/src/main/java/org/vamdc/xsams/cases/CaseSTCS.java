@@ -27,9 +27,10 @@ extends org.vamdc.xsams.cases.stcs.Case{
 		}
 
 		//l
-		for (QuantumNumber qn: state.getQNumsByType(QNType.L)){
+		qNs.setL(state.getQNumIntValueByType(QNType.L));
+		/*for (QuantumNumber qn: state.getQNumsByType(QNType.L)){
 			qNs.getLS().add(qn.getIntValue());
-		}
+		}*/
 
 		//li
 		for (QuantumNumber qn: state.getQNumsByType(QNType.li)){

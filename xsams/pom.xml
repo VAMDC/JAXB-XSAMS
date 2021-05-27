@@ -43,7 +43,7 @@
 
 	<build>
 		<plugins>
-			<plugin>
+			<!-- <plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-scm-plugin</artifactId>
 				<version>1.7</version>
@@ -59,10 +59,11 @@
 					<connectionUrl>${xsams.scm.url}</connectionUrl>
 				</configuration>
 
-			</plugin>
+			</plugin>-->
 			<plugin>
 				<groupId>org.jvnet.jaxb2.maven2</groupId>
 				<artifactId>maven-jaxb2-plugin</artifactId>
+				<version>0.13.0</version>
 				<executions>
 					<execution>
 						<goals>
